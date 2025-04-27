@@ -7,7 +7,7 @@ This repo contains my notes, code, and problem solutions while following the **S
 
 ## 📚 About
 
-- 📅 Started: April 2025
+- 📅 Started: 27 April 2025
 - 🎯 Goal: Build strong fundamentals in Core Java and DSA for coding interviews and development.
 
 ---
