@@ -16,8 +16,8 @@ This repo contains my notes, code, and problem solutions while following the **S
 
 - [x] Core Java
 - [ ] Arrays
-- [ ] 2D Array
 - [ ] Basic Sorting Algorithm
+- [ ] 2D Array
 - [ ] Strings
 - [ ] Bit Manipulation
 - [ ] OOPs (Object-Oriented Programming)
