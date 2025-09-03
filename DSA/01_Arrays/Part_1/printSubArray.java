@@ -5,35 +5,20 @@
 public class printSubArray {
 
     public static void Print(int numbers[]) {
-        int n = numbers.length;
-        int sumOfSubArray = 0;
-        int maxSum = Integer.MIN_VALUE;
 
-        for (int i = 0; i < n; i++) {
-            int start = i;
-            for (int j = i; j < n; j++) {
-                int end = j;
-                sumOfSubArray = 0;
+        for (int i = 0; i < numbers.length; i++) {
 
-                // System.out.println("Subarray from index " + start + " to " + end + ":");
-                for (int k = start; k <= end; k++) {
-                    System.out.print(numbers[k] + "  ");
-                    sumOfSubArray += numbers[k];
-
-                }
-                System.out.print(" = " + sumOfSubArray);
-
-                if (sumOfSubArray > maxSum) {
-                    maxSum = sumOfSubArray;
+            for (int j = i+1; j < numbers.length; j++) {
+                
+                for (int k = i; k < j; k++) {
+                    System.out.print(numbers[k]+" ");
                 }
 
                 System.out.println();
             }
+            System.out.println();
 
-            System.out.println("-----------------");
         }
-        System.out.println("  maxsum of subarray is " + maxSum);
-
     }
 
     public static void main(String[] args) {

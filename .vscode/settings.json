@@ -1,9 +1,0 @@
-{
-  "tabnine.disable": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "javascript": false,
-    "java": false
-  }
-}
